@@ -55,7 +55,7 @@ hr {
 
 /* Team Picker */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
-   background-color: #626287 !important;
+   background-color: #21252b !important;
    box-shadow: var(--background) 1px 1px 25px;
    color: var(--text);
    z-index: 1;
