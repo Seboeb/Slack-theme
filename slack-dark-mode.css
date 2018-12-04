@@ -986,13 +986,13 @@ select {
 }
 
 .CodeMirror, .CodeMirror .CodeMirror-gutters, .CodeMirror-gutter {
-   background-color: #bababa !important;;
+   background-color: #4f5663 !important;;
    border-color: var(--border-bright);
    color: var(--text);
 }
 
 .CodeMirror .CodeMirror-line {
-   background-color: var(--background);
+   background-color: #4f5663;
 }
 
 .CodeMirror-cursor {
