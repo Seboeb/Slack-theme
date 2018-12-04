@@ -378,7 +378,7 @@ ts-message .action_hover_container .btn_msg_action,
 .menu,
 .menu #menu_items_scroller,
 .btn, .btn_outline {
-  background: var(--background-elevated) !important;
+  background: #404651 !important;
 }
 
 
@@ -494,7 +494,7 @@ pre.special_formatting{
 
 code {
   color: var(--text-special) !important;
-  background-color: var(--background-elevated) !important;
+  background-color: #404651 !important;
   border-color: var(--border-dim) !important;
 }
 
@@ -986,13 +986,13 @@ select {
 }
 
 .CodeMirror, .CodeMirror .CodeMirror-gutters, .CodeMirror-gutter {
-   background-color: #4f5663 !important;;
+   background-color: #404651 !important;;
    border-color: var(--border-bright);
    color: var(--text);
 }
 
 .CodeMirror .CodeMirror-line {
-   background-color: #4f5663;
+   background-color: #404651;
 }
 
 .CodeMirror-cursor {
@@ -1269,7 +1269,7 @@ ts-jumper ts-jumper-container {
 
 /* snippet / file container / download bar */
 .c-snippet__code .CodeMirror-code>div:before {
-    background-color: var(--background);
+    background-color: #404651;
 }
 .c-file_container--gradient:after {
     background: linear-gradient(180deg,hsla(0,0%,100%,0),var(--background));
@@ -1278,7 +1278,7 @@ ts-jumper ts-jumper-container {
     color: var(--text);
 }
 .c-file_container, .c-file__slide--meta {
-    background-color: var(--background-elevated);
+    background-color: #404651;
 }
 .c-file_container {
     border: 1px solid var(--border-dim);
