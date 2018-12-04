@@ -494,7 +494,8 @@ pre.special_formatting{
 
 code {
   color: var(--text-special) !important;
-  background-color: var(--background-elevated) !important;
+  /*background-color: var(--background-elevated) !important;*/
+  background-color: #bababa !important;
   border-color: var(--border-dim) !important;
 }
 
