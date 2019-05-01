@@ -1356,14 +1356,14 @@ nav {
 }
 /* dialogs */
 .c-dialog__header {
-    background: var(--background-elevated);
+    background: var(--text);
 }
 
 .c-dialog__title {
     color: var(--text);
 }
 .c-dialog__content, .c-dialog__footer {
-    background: var(--text);
+    background: var(--background);
 }
 .c-dialog__cancel {
     background: var(--background-elevated);
