@@ -1377,15 +1377,6 @@ nav {
    color: var(--text) !important;
 }
 
-.p-app_dialog_elements {
-   color: var(--text) !important;
-}
-
-.c-label {
-   color: var(--text) !important;
-   font-size: 22px;
-}
-
 /* message editor */
 .c-message__editor__input {
     background: var(--background-elevated);
@@ -1517,4 +1508,13 @@ ts-jumper .p-jumper__help {
 
 #user_groups_container .mention {
     background-color: var(--background-hover);
+}
+
+.p-app_dialog_elements {
+   color: var(--text);
+}
+
+.c-label {
+   color: var(--text);
+   font-size: 22px;
 }
