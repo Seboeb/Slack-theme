@@ -1356,7 +1356,7 @@ nav {
 }
 /* dialogs */
 .c-dialog__header {
-    background: var(--text);
+    background: var(--background-elevated);
 }
 
 .c-dialog__title {
