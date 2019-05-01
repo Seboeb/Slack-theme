@@ -1381,6 +1381,11 @@ nav {
    color: var(--text) !important;
 }
 
+.c-label {
+   color: var(--text) !important;
+   font-size: 22px;
+}
+
 /* message editor */
 .c-message__editor__input {
     background: var(--background-elevated);
