@@ -1373,6 +1373,10 @@ nav {
     background: var(--background-elevated);
 }
 
+.p-app_dialog__title_text {
+   color: var(--text);
+}
+
 /* message editor */
 .c-message__editor__input {
     background: var(--background-elevated);
