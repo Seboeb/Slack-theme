@@ -1366,7 +1366,7 @@ nav {
     background: var(--background);
 }
 .c-dialog__cancel {
-    background: var(--background-elevated);
+    background: var(--text);
 }
 /* unread message divider badge */
 .c-message_list__unread_divider__label {
