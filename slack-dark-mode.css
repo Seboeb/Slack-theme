@@ -1514,14 +1514,15 @@ ts-jumper .p-jumper__help {
 .p-app_dialog_elements {
    color: var(--text);
 }
+.c-label__text {
+   color: var(--text);
+} 
 
 /* label {
    color: var(--text);
-}
+}*/
 
-.c-label__text {
-   font-size: 14px;
-}  */
+
 
 
 
