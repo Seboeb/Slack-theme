@@ -330,7 +330,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 textarea, input[type="text"], #file_comment_textarea {
-	background-color: var(--background-elevated) !important;
+	background-color: var(--text) !important;
    border-color: var(--border-dim) !important;
    color: var(--text) !important;
 }
@@ -1356,7 +1356,7 @@ nav {
 }
 /* dialogs */
 .c-dialog__header {
-    background: var(--text);
+    background: var(--background-elevated);
 }
 
 .c-dialog__title {
