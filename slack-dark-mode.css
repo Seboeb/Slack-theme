@@ -1356,7 +1356,7 @@ nav {
 }
 /* dialogs */
 .c-dialog__header {
-    background: var(--text);
+    background: var(--background-elevated);
 }
 
 .c-dialog__title {
@@ -1366,7 +1366,7 @@ nav {
     background: var(--text);
 }
 .c-dialog__cancel {
-    background: var(--text);
+    background: var(--background-elevated);
 }
 /* unread message divider badge */
 .c-message_list__unread_divider__label {
