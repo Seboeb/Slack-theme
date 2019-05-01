@@ -1373,10 +1373,6 @@ nav {
     background: var(--background-elevated);
 }
 
-.p-app_dialog__title_text {
-   color: var(--text) !important;
-}
-
 /* message editor */
 .c-message__editor__input {
     background: var(--background-elevated);
@@ -1510,11 +1506,12 @@ ts-jumper .p-jumper__help {
     background-color: var(--background-hover);
 }
 
-.p-app_dialog_elements {
+
+/* MY CUSTOM CSS FOR DIALOGS */
+.p-app_dialog__title_text {
    color: var(--text);
 }
 
-.c-label {
+.p-app_dialog_elements {
    color: var(--text);
-   font-size: 22px;
 }
