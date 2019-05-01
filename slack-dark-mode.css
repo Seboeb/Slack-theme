@@ -1513,13 +1513,13 @@ ts-jumper .p-jumper__help {
    color: var(--text);
 }
 
-label {
+/* label {
    color: var(--text);
 }
 
 .c-label__text {
    font-size: 14px;
-} 
+}  */
 /* .p-app_dialog_elements {
    color: var(--text);
 } */
