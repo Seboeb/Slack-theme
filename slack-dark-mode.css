@@ -1508,8 +1508,10 @@ ts-jumper .p-jumper__help {
 
 
 /* MY CUSTOM CSS FOR DIALOGS */
-
 .p-app_dialog__title_text {
+   color: var(--text);
+}
+.p-app_dialog_elements {
    color: var(--text);
 }
 
@@ -1520,9 +1522,7 @@ ts-jumper .p-jumper__help {
 .c-label__text {
    font-size: 14px;
 }  */
-/* .p-app_dialog_elements {
-   color: var(--text);
-} */
+
 
 
 
