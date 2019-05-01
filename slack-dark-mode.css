@@ -1512,10 +1512,11 @@ ts-jumper .p-jumper__help {
    color: var(--text);
 }
 
-.c-label__text {
-   font-size: 12px;
+.p-app_dialog_elements {
    color: var(--text);
 }
-/* .p-app_dialog_elements {
-   color: var(--text);
-} */
+
+.c-label__text {
+   font-size: 14px;
+}
+
