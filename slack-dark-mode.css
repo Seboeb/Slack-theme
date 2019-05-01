@@ -1363,7 +1363,7 @@ nav {
     color: var(--text);
 }
 .c-dialog__content, .c-dialog__footer {
-    background: var(--background);
+    background: var(--text);
 }
 .c-dialog__cancel {
     background: var(--background-elevated);
