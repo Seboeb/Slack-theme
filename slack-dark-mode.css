@@ -1509,13 +1509,13 @@ ts-jumper .p-jumper__help {
 
 /* MY CUSTOM CSS FOR DIALOGS */
 .p-app_dialog__title_text {
-   color: var(--text);
+   color: var(--text) !important;
 }
 .p-app_dialog_elements {
-   color: var(--text);
+   color: var(--text) !important;
 }
 .c-label__text {
-   color: var(--text);
+   color: var(--text) !important;
 } 
 
 /* label {
