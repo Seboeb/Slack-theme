@@ -736,7 +736,7 @@ ts-mention.ts_tip:hover
 .menu ul li a, .menu ul li:not(.disabled) a {
    /* border: 1px solid var(--background-elevated) !important; */
    border: 0px;
-   color: var(--text) !important;
+   color: var(--text);
 }
 
 .menu ul li.highlighted a, .menu ul li:hover:not(.disabled) a {
@@ -1546,6 +1546,10 @@ ts-jumper .p-jumper__help {
 
 #menu {
    border-radius: 6px;
+}
+
+.menu ul li .menu_item_label {
+   color: var(--text) !important;
 }
 
 /* #menu_items {
