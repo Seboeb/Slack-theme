@@ -1552,7 +1552,7 @@ ts-jumper .p-jumper__help {
 }
 
 #menu_items > li {
-   border: 10px solid grey;
+   border: 10px solid grey !important;
 }
 /* label {
    color: var(--text);
