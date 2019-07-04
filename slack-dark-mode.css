@@ -1549,7 +1549,7 @@ ts-jumper .p-jumper__help {
 }
 
 #menu_items > li {
-   border: 0 !important;
+   border: 0px !important;
 }
 
 #details_tab .channel_page_section .disclosure_triangle {
