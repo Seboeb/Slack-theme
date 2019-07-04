@@ -1547,6 +1547,9 @@ ts-jumper .p-jumper__help {
    border: 0;
 }
 
+#menu_items {
+   background: white;
+}
 /* label {
    color: var(--text);
 }*/
