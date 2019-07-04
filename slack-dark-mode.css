@@ -1539,10 +1539,13 @@ ts-jumper .p-jumper__help {
    color: rgba(255, 255, 255, 0.7);
 }
 
-.supports_custom_scrollbar:not(.slim_scrollbar) .menu #menu_items_scroller {
+/* .supports_custom_scrollbar:not(.slim_scrollbar) .menu #menu_items_scroller {
    background-color: #404651;
-}
+} */
 
+.menu ul li {
+   border: 0;
+}
 
 /* label {
    color: var(--text);
