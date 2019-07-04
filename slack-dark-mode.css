@@ -1520,6 +1520,7 @@ ts-jumper .p-jumper__help {
 
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
    color: #DDD;
+   background-color: #4f4f4f
 }
 
 /* label {
