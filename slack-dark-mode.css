@@ -733,9 +733,9 @@ ts-mention.ts_tip:hover
 }
 
 /* menus */
-.menu ul li a, .menu ul li:not(.disabled) a {
+/* .menu ul li a, .menu ul li:not(.disabled) a {
    border: 1px solid var(--background-elevated) !important;
-}
+} */
 
 .menu ul li.highlighted a, .menu ul li:hover:not(.disabled) a {
    background: var(--background-elevated) !important;
@@ -1552,6 +1552,10 @@ ts-jumper .p-jumper__help {
 
 #menu_items > li {
    border: 0px !important;
+}
+
+.menu li a {
+   color: var(--text);
 }
 
 #details_tab .channel_page_section .disclosure_triangle {
