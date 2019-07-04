@@ -1548,13 +1548,13 @@ ts-jumper .p-jumper__help {
    border-radius: 6px;
 }
 
-#menu_items {
+/* #menu_items {
    background: transparent;
-}
+} */
 
-#menu_items > li {
+/* #menu_items > li {
    border: 0px !important;
-}
+} */
 
 
 #details_tab .channel_page_section .disclosure_triangle {
