@@ -1550,6 +1550,10 @@ ts-jumper .p-jumper__help {
 #menu_items {
    background: white;
 }
+
+#menu_items > li {
+   border: 0;
+}
 /* label {
    color: var(--text);
 }*/
