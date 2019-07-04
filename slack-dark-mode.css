@@ -1543,16 +1543,13 @@ ts-jumper .p-jumper__help {
    background-color: #404651;
 } */
 
-.menu ul li {
-   border: 0;
-}
 
 #menu_items {
-   background: white;
+   background: transparent;
 }
 
 #menu_items > li {
-   border: 10px solid grey !important;
+   border: 0 !important;
 }
 /* label {
    color: var(--text);
