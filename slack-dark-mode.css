@@ -1564,6 +1564,10 @@ ts-jumper .p-jumper__help {
 #details_tab .channel_page_section .disclosure_triangle {
    color: rgba(255, 255, 255, 0.7);
 }
+
+#details_tab .channel_page_section {
+   border-top: 1px solid #444 !important; 
+}
 /* label {
    color: var(--text);
 }*/
