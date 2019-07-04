@@ -736,7 +736,7 @@ ts-mention.ts_tip:hover
 .menu ul li a, .menu ul li:not(.disabled) a {
    /* border: 1px solid var(--background-elevated) !important; */
    border: 0px;
-   color: var(--text);
+   color: var(--text) !important;
 }
 
 .menu ul li.highlighted a, .menu ul li:hover:not(.disabled) a {
