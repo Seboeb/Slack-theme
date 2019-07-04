@@ -1529,6 +1529,14 @@ ts-jumper .p-jumper__help {
 
 }
 
+.c-menu_item__icon {
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.c-menu_item__header {
+   color: rgba(255, 255, 255, 0.7);
+}
+
 /* label {
    color: var(--text);
 }*/
