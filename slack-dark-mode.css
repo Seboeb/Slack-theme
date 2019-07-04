@@ -400,7 +400,6 @@ ts-message .action_hover_container .btn_msg_action,
 .flexpane_redesign #flex_contents .heading_text,
 #flex_contents .subheading,
 #search_filters.files #filter_files, #search_filters.messages #filter_messages,
-.menu ul li a,
 .btn, .btn_outline, .menu {
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
@@ -1543,6 +1542,9 @@ ts-jumper .p-jumper__help {
    background-color: #404651;
 } */
 
+#menu {
+   border-radius: 6px;
+}
 
 #menu_items {
    background: transparent;
