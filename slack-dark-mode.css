@@ -1518,11 +1518,13 @@ ts-jumper .p-jumper__help {
    color: var(--text) !important;
 } 
 
+/* code line ruler */
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
    color: #DDD;
    background-color: #4f4f4f;
 }
 
+/* code snippet gradient */
 .c-pillow_file__content--collapsed:after {
    /* background: linear-gradient(0deg,#000,hsla(0,0%,100%,0) 40px); */
    background: transparent;
@@ -1536,6 +1538,11 @@ ts-jumper .p-jumper__help {
 .c-menu_item__header {
    color: rgba(255, 255, 255, 0.7);
 }
+
+.supports_custom_scrollbar:not(.slim_scrollbar) .menu #menu_items_scroller {
+   background-color: #404651;
+}
+
 
 /* label {
    color: var(--text);
