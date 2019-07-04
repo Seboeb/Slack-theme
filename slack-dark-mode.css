@@ -1523,6 +1523,11 @@ ts-jumper .p-jumper__help {
    background-color: #4f4f4f;
 }
 
+.c-pillow_file__content--collapsed:after {
+   background: linear-gradient(0deg,#444,hsla(0,0%,100%,0) 40px);
+
+}
+
 /* label {
    color: var(--text);
 }*/
