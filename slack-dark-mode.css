@@ -1518,6 +1518,10 @@ ts-jumper .p-jumper__help {
    color: var(--text) !important;
 } 
 
+.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+   color: #DDD;
+}
+
 /* label {
    color: var(--text);
 }*/
