@@ -1581,6 +1581,9 @@ ts-jumper .p-jumper__help {
    color: var(--border-dim) !important;
 }
 
+.p-team_sidebar {
+   background: var(--background-elevated) !important;
+}
 
 /* label {
    color: var(--text);
