@@ -1578,7 +1578,7 @@ ts-jumper .p-jumper__help {
 }
 
 .p-classic_nav__model__title__info {
-   color: var(--border-dim);
+   color: var(--border-dim) !important;
 }
 
 
