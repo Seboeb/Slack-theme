@@ -1569,9 +1569,19 @@ ts-jumper .p-jumper__help {
    border-top: 1px solid #444 !important; 
 }
 
-.p-classic_nav__team_header, .p-classic_nav__channel_header, .p-classic_nav__right_header{
+.p-classic_nav__team_header {
+   background: var(--background-elevated) !important;
+}
+
+.p-classic_nav__channel_header, .p-classic_nav__right_header{
    background: var(--background) !important;
 }
+
+.channel_header__title__info {
+   color: var(--border-dim);
+}
+
+
 /* label {
    color: var(--text);
 }*/
