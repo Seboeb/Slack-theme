@@ -1568,6 +1568,10 @@ ts-jumper .p-jumper__help {
 #details_tab .channel_page_section {
    border-top: 1px solid #444 !important; 
 }
+
+.channel_header {
+   background-color: var(--background-elevated);
+}
 /* label {
    color: var(--text);
 }*/
