@@ -1577,7 +1577,7 @@ ts-jumper .p-jumper__help {
    background: var(--background) !important;
 }
 
-.channel_header__title__info {
+.p-classic_nav__model__title__info {
    color: var(--border-dim);
 }
 
