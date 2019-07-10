@@ -1597,6 +1597,21 @@ ts-jumper .p-jumper__help {
 .p-classic_nav__right__search {
    border: 1px solid var(--border-dim) !important;
 }
+
+.p-workspace__primary_view_footer {
+   background: var(--background) !important;
+}
+
+.p-workspace__input .p-message_input_field {
+   background: var(--background) !important;
+   border-color: var(--border-dim);
+}
+
+.p-workspace__input .p-message_input_field.focus {
+   border-color: var(--primary);
+   background: none;
+}
+
 /* label {
    color: var(--text);
 }*/
