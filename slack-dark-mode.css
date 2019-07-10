@@ -1581,10 +1581,22 @@ ts-jumper .p-jumper__help {
    color: var(--border-dim) !important;
 }
 
-.p-team_sidebar {
+.p-team_sidebar, .p-team_sidebar--frameless::before {
    background: var(--background-elevated) !important;
 }
 
+.p-classic_nav__model__title__name--dim {
+   color: var(--text) !important;
+}
+
+.p-classic_nav__model__button, .p-classic_nav__right__search__icon,
+.p-classic_nav__right__search__placeholder, .p-classic_nav__right__button {
+   color: var(--border-dim) !important;
+}
+
+.p-classic_nav__right__search {
+   border: 1px solid var(--border-dim) !important;
+}
 /* label {
    color: var(--text);
 }*/
