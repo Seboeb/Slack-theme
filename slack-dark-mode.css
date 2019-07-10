@@ -1569,7 +1569,7 @@ ts-jumper .p-jumper__help {
    border-top: 1px solid #444 !important; 
 }
 
-.channel_header {
+#channel_header > div{
    background: var(--background-elevated) !important;
 }
 /* label {
