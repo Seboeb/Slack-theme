@@ -1570,7 +1570,7 @@ ts-jumper .p-jumper__help {
 }
 
 .channel_header {
-   background-color: var(--background-elevated);
+   background: var(--background-elevated) !important;
 }
 /* label {
    color: var(--text);
