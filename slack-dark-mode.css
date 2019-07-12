@@ -1121,9 +1121,6 @@ ts-jumper ts-jumper-container {
 	color: var(--text);
 }
 
-.token {
-	background-color: var(--background-elevated) !important;
-}
 .c-search_modal .popover>div { background-color: var(--background); }
 
 .c-search_autocomplete__suggestion_content {
@@ -1636,7 +1633,7 @@ ts-jumper .p-jumper__help {
 }
 
 .token {
-   background-color: var(--primary);
+   background-color: var(--primary) !important;
 }
 
 .c-search_autocomplete__member .c-unified_member__name {
@@ -1671,4 +1668,13 @@ ts-jumper .p-jumper__help {
 
 .p-flexpane__body--empty {
    background-color: var(--background-elevated);
+}
+
+.p-classic_nav__right__search:hover {
+   border-color: var(--primary);
+}
+
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder,
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon {
+   color: var(--border-dim);
 }
