@@ -1593,7 +1593,7 @@ ts-jumper .p-jumper__help {
 }
 
 .p-team_sidebar, .p-team_sidebar--frameless::before {
-   background: var(--background-elevated);
+   background: var(--background-elevated) !important;
 }
 
 .p-classic_nav__model__title__name--dim {
@@ -1644,7 +1644,7 @@ ts-jumper .p-jumper__help {
 }
 
 .p-team_sidebar__add_button {
-   background: var(--background);
+   background: var(--background) !important;
 }
 
 .p-workspace__secondary_view {
