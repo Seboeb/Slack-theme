@@ -1396,7 +1396,7 @@ nav {
     color: var(--text);
 }
 .c-pillow_file_container {
-    background: var(--background);
+    background: var(--background-elevated) !important;
 }
 .c-input_select {
     background: var(--background-elevated);
