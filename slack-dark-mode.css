@@ -1294,8 +1294,10 @@ ts-jumper ts-jumper-container {
     background-color: var(--background);
 }
 .p-flexpane_header {
-    background: var(--background);
+    background: var(--background-elevated);
+    border-color: var(--border-dim) !important;
 }
+
 .p-downloads_list__shift_hint {
     background: linear-gradient(180deg,hsla(0,0%,100%,0),var(--background));
 }
@@ -1617,12 +1619,44 @@ ts-jumper .p-jumper__help {
    background: none;
 }
 
-/* label {
-   color: var(--text);
-}*/
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
+   background-color: var(--background) !important;
+}
 
+.c-search__input_and_close {
+   border-bottom: 1px solid var(--border-dim) !important;
+}
 
+.c-search_autocomplete__suggestion_item, .c-search_autocomplete__query_parts .token {
+   color: var(--text) !important;
+}
 
+.token {
+   background-color: var(--primary) !important;
+}
 
+.c-search_autocomplete__member .c-unified_member__name {
+   color: var(--text-special) !important;
+}
 
+.p-team_sidebar__add_button {
+   background: var(--background) !important;
+}
 
+.p-workspace__secondary_view {
+   border-left: 1px solid #444444;
+   background: var(--background-elevated) !important;
+}
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+   color: var(--text) !important;
+}
+
+.p-channel_details__dm_section, .p-channel_details__dm_section__tz_section, 
+.p-channel_details_section {
+   border-bottom: 1px solid #444444 !important;
+}
+
+.p-channel_details__dm_section__tz_label {
+   color: var(--text) !important;
+}
