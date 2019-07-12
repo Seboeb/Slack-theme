@@ -1397,7 +1397,7 @@ nav {
     color: var(--text);
 }
 .c-pillow_file_container {
-    background: var(--background-elevated);
+    background: #354458;
 }
 .c-input_select {
     background: var(--background-elevated);
@@ -1685,4 +1685,10 @@ ts-jumper .p-jumper__help {
 .p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder,
 .p-classic_nav__right__search:hover .p-classic_nav__right__search__icon {
    color: var(--border-dim);
+}
+
+.p-multi_file_upload__container .p-galler_scroller__wrapper,
+.p-share_dialog_message_input {
+   background: none;
+   border: 1px solid var(--border-dim);
 }
