@@ -1396,7 +1396,7 @@ nav {
     color: var(--text);
 }
 .c-pillow_file_container {
-    background: var(--background-elevated) !important;
+    background: var(--background-elevated);
 }
 .c-input_select {
     background: var(--background-elevated);
@@ -1560,7 +1560,7 @@ ts-jumper .p-jumper__help {
 }
 
 .menu ul li .menu_item_label {
-   color: var(--text) !important;
+   color: var(--text);
 }
 
 /* #menu_items {
@@ -1577,44 +1577,44 @@ ts-jumper .p-jumper__help {
 }
 
 #details_tab .channel_page_section {
-   border-top: 1px solid #444 !important; 
+   border-top: 1px solid #444; 
 }
 
 .p-classic_nav__team_header {
-   background: var(--background-elevated) !important;
+   background: var(--background-elevated);
 }
 
 .p-classic_nav__channel_header, .p-classic_nav__right_header{
-   background: var(--background) !important;
+   background: var(--background);
 }
 
 .p-classic_nav__model__title__info {
-   color: var(--border-dim) !important;
+   color: var(--border-dim);
 }
 
 .p-team_sidebar, .p-team_sidebar--frameless::before {
-   background: var(--background-elevated) !important;
+   background: var(--background-elevated);
 }
 
 .p-classic_nav__model__title__name--dim {
-   color: var(--text) !important;
+   color: var(--text);
 }
 
 .p-classic_nav__model__button, .p-classic_nav__right__search__icon,
 .p-classic_nav__right__search__placeholder, .p-classic_nav__right__button {
-   color: var(--border-dim) !important;
+   color: var(--border-dim);
 }
 
 .p-classic_nav__right__search {
-   border: 1px solid var(--border-dim) !important;
+   border: 1px solid var(--border-dim);
 }
 
 .p-workspace__primary_view_footer {
-   background: var(--background) !important;
+   background: var(--background);
 }
 
 .p-workspace__input .p-message_input_field {
-   background: var(--background) !important;
+   background: var(--background);
    border-color: var(--border-dim);
 }
 
@@ -1624,49 +1624,49 @@ ts-jumper .p-jumper__help {
 }
 
 .c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
-   background-color: var(--background) !important;
+   background-color: var(--background);
 }
 
 .c-search__input_and_close {
-   border-bottom: 1px solid var(--border-dim) !important;
+   border-bottom: 1px solid var(--border-dim);
 }
 
 .c-search_autocomplete__suggestion_item, .c-search_autocomplete__query_parts .token {
-   color: var(--text) !important;
+   color: var(--text);
 }
 
 .token {
-   background-color: var(--primary) !important;
+   background-color: var(--primary);
 }
 
 .c-search_autocomplete__member .c-unified_member__name {
-   color: var(--text-special) !important;
+   color: var(--text-special);
 }
 
 .p-team_sidebar__add_button {
-   background: var(--background) !important;
+   background: var(--background);
 }
 
 .p-workspace__secondary_view {
    border-left: 1px solid #444444;
-   background: var(--background-elevated) !important;
+   background: var(--background-elevated);
 }
 
 .c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
-   color: var(--text) !important;
+   color: var(--text);
 }
 
 .p-channel_details__dm_section, .p-channel_details__dm_section__tz_section, 
 .p-channel_details_section, .p-file_list__file.c-pillow_file_container--full_width {
-   border-bottom: 1px solid #444444 !important;
+   border-bottom: 1px solid #444444;
 }
 
 .p-channel_details__dm_section__tz_label {
-   color: var(--text) !important;
+   color: var(--text);
 }
 
 .p-member_profile_field__label {
-   color: var(--primary) !important;
+   color: var(--primary);
 }
 
 .p-flexpane__body--empty {
