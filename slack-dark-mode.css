@@ -1578,7 +1578,11 @@ ts-jumper .p-jumper__help {
 }
 
 .p-classic_nav__team_header {
-   background: var(--background-elevated);
+   background: var(--background-elevated) !important;
+}
+
+.p-channel_sidebar__jumper {
+   background: rgba(255, 255, 255, 0.15) !important;
 }
 
 .p-classic_nav__channel_header, .p-classic_nav__right_header{
