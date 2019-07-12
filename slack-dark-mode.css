@@ -1692,3 +1692,13 @@ ts-jumper .p-jumper__help {
    background: none;
    border: 1px solid var(--border-dim);
 }
+
+.p-file_viewer__header__meta__title {
+   color: var(--text-bright);
+}
+
+.p-file_viewer__header__meta__name,
+.c-button-unstyled {
+   color: var(--text);
+}
+
