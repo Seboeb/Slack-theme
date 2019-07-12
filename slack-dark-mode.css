@@ -1410,7 +1410,11 @@ nav {
 	padding-top: 12px;
 }
 .c-pillow_file_container--full_width:focus, .c-pillow_file_container--full_width:focus-within, .c-pillow_file_container--full_width:hover {
-	background-color: var(--background-elevated);
+	background-color: var(--background);
+}
+
+.p-file_list__file.c-pillow_file_container--full_width:hover {
+   border-color: none;
 }
 /* side lists */
 #client-ui .searchable_member_list .team_list_item:hover {
@@ -1426,7 +1430,7 @@ nav {
     background-color: var(--background);
 }
 .c-pillow_file__description {
-    color: var(--text-bright);
+    color: var(--text);
 }
 .c-input_select_options_list_container:not(.c-input_select_options_list_container--always-open)
 {
@@ -1653,10 +1657,18 @@ ts-jumper .p-jumper__help {
 }
 
 .p-channel_details__dm_section, .p-channel_details__dm_section__tz_section, 
-.p-channel_details_section {
+.p-channel_details_section, .p-file_list__file.c-pillow_file_container--full_width {
    border-bottom: 1px solid #444444 !important;
 }
 
 .p-channel_details__dm_section__tz_label {
    color: var(--text) !important;
+}
+
+.p-member_profile_field__label {
+   color: var(--primary) !important;
+}
+
+.p-flexpane__body--empty {
+   background-color: var(--background-elevated);
 }
