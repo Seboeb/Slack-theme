@@ -259,8 +259,9 @@ li.active[class] span,
 .p-channel_sidebar__banner--mentions {
    /*inverted because important*/
    background-color: var(--border-bright) !important;
-   border-color: var(--text-bright);
+   /* border-color: var(--text-bright); */
    color: var(--text-bright);
+   border: 0 !important;
 }
 
 /*also add border to unread count for individual channels*/
