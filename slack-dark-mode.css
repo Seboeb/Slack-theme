@@ -165,7 +165,7 @@ ts-jumper input[type="text"],
 }
 
 .c-message_attachment__border {
-	background-color: #585858 !important;
+	background-color: var(--primary) !important;
 }
 .c-member_slug--link {
     background: var(--background-elevated);
