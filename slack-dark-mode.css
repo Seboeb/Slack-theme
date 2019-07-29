@@ -1702,3 +1702,10 @@ ts-jumper .p-jumper__help {
    color: var(--text);
 }
 
+.p-dm_browser_modal__controls > .c-multi_select_input {
+   background: var(--background-elevated);
+}
+
+.c-alert--boxed {
+   color: var(--text);
+}
