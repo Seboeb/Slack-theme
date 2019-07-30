@@ -1709,3 +1709,21 @@ ts-jumper .p-jumper__help {
 .c-alert--boxed {
    color: var(--text);
 }
+
+.c-texty_autocomplete {
+   box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 4px 12px 0 rgba(0, 0, 0, 0.33);
+   background: var(--background);
+}
+
+.c-texty_autocomplete--commands .c-texty_autocomplete__group {
+   background: var(--background);
+   color: var(--text);
+}
+
+.c-texty_autocomplete--commands .c-texty_autocomplete__result:not(.c-texty_autocomplete__result--selected) .c-texty_autocomplete__result_description {
+   color: var(--primary);
+}
+
+.c-texty_autocomplete--commands .c-texty_autocomplete__result_icon {
+   background: rgba(78, 78, 78, 0.7);
+}
