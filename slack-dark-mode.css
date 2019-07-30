@@ -1721,7 +1721,7 @@ ts-jumper .p-jumper__help {
 }
 
 .c-texty_autocomplete--commands .c-texty_autocomplete__result:not(.c-texty_autocomplete__result--selected) .c-texty_autocomplete__result_description {
-   color: var(--primary);
+   color: var(--text);
 }
 
 .c-texty_autocomplete--commands .c-texty_autocomplete__result_icon {
