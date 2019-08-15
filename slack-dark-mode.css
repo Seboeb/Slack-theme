@@ -1614,7 +1614,8 @@ ts-jumper .p-jumper__help {
    border: 1px solid var(--border-dim);
 }
 
-.p-workspace__primary_view_footer {
+.p-workspace__primary_view_footer,
+.workspace__primary_view_footer {
    background: var(--background);
 }
 
