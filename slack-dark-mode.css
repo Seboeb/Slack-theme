@@ -1728,3 +1728,38 @@ ts-jumper .p-jumper__help {
 .c-texty_autocomplete--commands .c-texty_autocomplete__result_icon {
    background: rgba(78, 78, 78, 0.7);
 }
+
+.p-threads_view {
+   background: var(--background);
+}
+
+.p-threads_view__default_background {
+   background: var(--background-elevated);
+}
+
+.p-threads_view_root,
+.p-threads_view_reply,
+.p-threads_view__footer {
+   border: 0;
+}
+
+.p-threads_view_root {
+   border-bottom: 0;
+}
+
+.p-threads_footer__input {
+   background: none;
+}
+
+.c-icon--inherit,
+.c-channel_name__text--inline {
+   color: var(--text);
+}
+
+.p-threads_footer__input .p-message_input_field {
+   border-color: var(--border-dim);
+}
+
+.p-threads_footer__input .p-message_input_field.focus {
+   border-color: var(--primary);
+}
