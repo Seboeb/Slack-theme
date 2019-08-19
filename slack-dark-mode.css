@@ -1748,7 +1748,7 @@ ts-jumper .p-jumper__help {
 }
 
 .p-threads_footer__input .p-message_input_field {
-   background: none;
+   background: var(--background-elevated);
 }
 
 .c-icon--inherit,
