@@ -1747,7 +1747,7 @@ ts-jumper .p-jumper__help {
    border-bottom: 0;
 }
 
-.p-threads_footer__input {
+.p-threads_footer__input .p-message_input_field {
    background: none;
 }
 
